@@ -1,0 +1,322 @@
+form {
+
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: #f0e6e0;
+   }
+
+main {
+  background-color: #f0e6e0;
+}
+
+h1 {
+  font-style: italic;
+  font-family: monospace;
+  color: #d4f0f7;
+  font-size: 35px; 
+  text-shadow: -1px -1px 0 #8d6868, 1px -1px 0 #8d6868, -1px 1px 0 #8d6868, 1px 1px 0 #8d6868;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  color:#dba4e1;
+  text-shadow: -.5px -.5px 0 #8d6868, .5px -.5px 0 #8d6868, -.5px .5px 0 #8d6868, .5px .5px 0 #8d6868;
+}
+
+p1 {
+  font-family: monospace;
+  font-size: 20px;
+  color:#6297a6;
+}
+
+p:active:hover,
+p:focus:hover,
+p:focus {
+  p: #bf8b85;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+}
+
+h2 {
+  margin-top: 2em; 
+  font-family: monospace;
+  color: #d4f0f7;
+  font-size: 30px;
+}
+
+
+h1 {
+  font-style: italic;
+  color: #d4f0f7;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+.alert {
+  padding: 25px;
+  background-color: #f75f9f; 
+  color: white;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: #a57aef;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+  
+.answer-choice {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding:10px;
+}
+
+.answer-choice {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 15px solid #ffb3c6;
+  border-radius: 20px;
+  background-color: #ffe5ec;
+  background-position: 0 0;
+}
+
+.answer-choice img {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.answer-choice:hover {
+  background-color: #e4c2d0;
+  border-color: #d4f0f7;
+}
+
+.answer-choice:active:hover,
+.answer-choice:focus:hover,
+.answer-choice:focus {
+  background-color: #bf8b85;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+}
+
+.answer-choice img.fade {
+  opacity: 0.3;                     
+}
+
+.answer-choice img.selected {
+  opacity: 1;                       
+}
+
+.fade {
+opacity: 0.5;
+}
+
+.fonts {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+  
+button { 
+  margin-top: 5px;
+}
+
+.center {
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.center img {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+body {
+  background-color:#f0e6e0
+}
+
+img {
+  border-radius: 10px;
+}
+  
+.button-56 {
+  align-items: center;
+  background-color: #dabeca;
+  background-position: 0 0;
+  box-sizing: border-box;
+  color: #78a2cc;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  word-break: break-word;
+} 
+
+.button-56:active,
+.button-56:hover,
+.button-56:focus {
+  outline: 0;
+}
+
+.button-56:active {
+  background-color: #bf8b85;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.display {
+  margin:auto;
+  margin-top:60px;
+  font-size: 30px;
+  padding: 14px;
+  align-items: center;
+  background-color: #dabeca;
+  background-position: 0 0;
+  border: 1px solid #aa986a;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #6c698d;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 4px 28px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.display:active,
+.display:hover,
+.display:focus {
+  outline: 0;
+}
+
+.display:active {
+  background-color: #bf8b85;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.display:hover {
+  background-color: #dabeca;
+  border-color: #e3d8f1;
+}
+
+.display:active:hover,
+.display:focus:hover,
+.display:focus {
+  background-color: #bf8b85;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+div.wrap img {
+    -moz-border-radius: 50px;
+          border-radius: 50px;
+}
+img.pic {
+    padding: 15px 25px 35px 45px;
+}
+
+.topnav {
+  background-color: pink;
+  overflow: hidden;
+  display:block;
+  list-style-type:none;
+  border-radius:10px;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #d4f0f7;
+  text-align: center;
+  padding: 1.5em;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #b08290;
+  color: dabeca;
+}
+
+.topnav a.active {
+  background-color: b08282;
+  color: white;
+}
+
+#navbar {
+  background-color: b08282; 
+  position: relative; 
+  top: -50px; 
+  width: 100%;
+  transition: top 0.3s; 
+}
+
+#navbar a {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #b08282;
+  color: mediumpurple;
+  
+}
